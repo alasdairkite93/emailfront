@@ -17,7 +17,7 @@ function ListInput() {
     e.preventDefault();
     console.log('Form fields: ', formFields);
       // eslint-disable-next-line no-unused-expressions
-            fetch('https://0.0.0.0:10000/file', {
+            fetch('https://127.0.0.1:5000/file', {
             method: 'POST',
             headers: {
                 "Content-Type": "application/json",
